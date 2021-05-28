@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.Application\Pesebrera.Application.Interfaces\Pesebrera.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\2.Application\Pesebrera.Application.Services\Pesebrera.Application.Services.csproj" />
+    <ProjectReference Include="..\..\3.Domain\Pesebrera.Domain.Interfaces\Pesebrera.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\..\3.Domain\Pesebrera.Domain.Services\Pesebrera.Domain.Services.csproj" />
+    <ProjectReference Include="..\Pesebrera.Infrastructure.Repositories\Pesebrera.Infrastructure.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

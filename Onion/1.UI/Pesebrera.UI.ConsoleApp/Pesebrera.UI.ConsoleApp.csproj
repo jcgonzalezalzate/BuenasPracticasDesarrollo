@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.Application\Pesebrera.Application.Interfaces\Pesebrera.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\4.Infrastructure\Pesebrera.Infrastructure.IoC\Pesebrera.Infrastructure.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3.Domain\Pesebrera.Domain.Interfaces\Pesebrera.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Pesebrera.Application.Interfaces\Pesebrera.Application.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
